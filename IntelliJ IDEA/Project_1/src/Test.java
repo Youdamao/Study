@@ -1,20 +1,16 @@
 public class Test {
+    public static void main(String[] args){
+        int [] numbers = {10, 20, 30, 40, 50};
 
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 10;
-        int c = 25;
-        int d = 25;
-
-        System.out.println("a++ = " + (a++) );
-        System.out.println("a-- = " + (a--) );
-        System.out.println("++a = " + (++a) );
-        System.out.println("--a = " + (--a) );
-
-
-        System.out.println("d++ = " + (d++) );
-        System.out.println("d-- = " + (d--) );
-        System.out.println("++d = " + (++d) );
-        System.out.println("--d = " + (--d) );
+        for(int x : numbers ){
+            System.out.print( x );
+            System.out.print(",");
+        }
+        System.out.print("\n");
+        String [] names ={"James", "Larry", "Tom", "Lacy"};
+        for( String name : names ) {
+            System.out.print( name );
+            System.out.print(",");
+        }
     }
 }
