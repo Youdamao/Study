@@ -6,16 +6,15 @@ public class Test {
         int c = 25;
         int d = 25;
 
-        System.out.println("a+b="+(a+b));
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
+        System.out.println("a++ = " + (a++) );
+        System.out.println("a-- = " + (a--) );
+        System.out.println("++a = " + (++a) );
+        System.out.println("--a = " + (--a) );
+
+
+        System.out.println("d++ = " + (d++) );
+        System.out.println("d-- = " + (d--) );
+        System.out.println("++d = " + (++d) );
+        System.out.println("--d = " + (--d) );
     }
 }
